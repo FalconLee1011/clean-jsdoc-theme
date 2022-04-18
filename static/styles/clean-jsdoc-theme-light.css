@@ -138,14 +138,26 @@ blockquote {
     color: #293a80;
 }
 
+.name:not(td.name) {
+    background-color: #e0e0e0;
+    padding: 1rem 0.5rem
+}
+
 .details {
     background: #f9f9f9;
     color: #101010;
+    margin-left: 2rem;
+    width: fit-content;
 }
 
 .member-item-container strong,
 .method-member-container strong {
     color: #000;
+    margin-left: 1.5rem;
+}
+
+.code-caption, .rel{
+    margin-left: 2rem;
 }
 
 .prettyprint,

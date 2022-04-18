@@ -170,6 +170,7 @@ ol.linenums li {
 
 .description {
     margin-bottom: 32px;
+    margin-left: 2em;
 }
 
 .method-member-container table {
@@ -270,7 +271,6 @@ table {
     border-spacing: 0;
     font-size: 14px;
     margin: 0;
-    width: 100%;
 }
 
 .params .name,

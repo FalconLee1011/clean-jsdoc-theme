@@ -8,8 +8,7 @@ var self = this;
     <?js } ?>
 
     <h4 class="name" id="<?js= id ?>">
-        <a href="#<?js= id ?>">#</a>
-        <?js= data.attribs + (kind === 'class' ? 'new ' : '') + name + (data.signature || '') ?>
+        <a href="#<?js= id ?>">#</a><?js= data.attribs + (kind === 'class' ? 'new ' : '') + name + (data.signature || '') ?>
     </h4>
 
     <?js if (data.summary) { ?>

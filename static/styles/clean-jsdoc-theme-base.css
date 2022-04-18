@@ -1,16 +1,43 @@
 @font-face {
     font-family: 'heading';
-    src: url('../fonts/Muli-Black.ttf') format('truetype');
+    src: url('../fonts/NotoSans-Regular.ttf');
 }
 
 @font-face {
     font-family: 'body';
-    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    src: url('../fonts/NotoSans-ExtraLight.ttf');
 }
 
 @font-face {
     font-family: 'code';
-    src: url('../fonts/MavenPro-Regular.ttf') format('truetype');
+    src: url('../fonts/SourceCodePro-Light.ttf');
+}
+
+.subsection-title{
+    margin-left: 1.5rem;
+}
+
+h3.subsection-title{
+    margin-left: 0;
+    border-bottom: 0.0625rem solid #333;
+}
+
+.member-item-container ul{
+    margin-left: 2rem;
+}
+
+.method-member-container ul{
+    margin-left: 2rem;
+}
+
+.method-member-container .param-desc, 
+.param-desc + .param-type{
+    margin-left: 2rem;
+}
+
+.props, .params{
+    margin-left: 2rem;
+    width: fit-content;
 }
 
 /*

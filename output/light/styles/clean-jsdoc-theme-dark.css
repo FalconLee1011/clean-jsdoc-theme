@@ -143,9 +143,16 @@ samp {
     color: #f7f7f7;
 }
 
+.name:not(td.name) {
+    background-color: #222831;
+    padding: 1rem 0.5rem
+}
+
 .details {
     background: #000;
     color: #fff;
+    margin-left: 2rem;
+    width: fit-content;
 }
 
 .prettyprint,
@@ -156,6 +163,11 @@ samp {
 .member-item-container strong,
 .method-member-container strong {
     color: #fff;
+    margin-left: 1.5rem;
+}
+
+.code-caption, .rel{
+    margin-left: 2rem;
 }
 
 .pre-top-bar-container {
